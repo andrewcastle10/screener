@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% block content %}
+  <div class="index">
+      <head>
+          <title>Fund Screener</title>
+      </head>
+
+      <body>
+        {{ bokS|indent(10)|safe }}
+      </body>
+  </div>
+{% endblock %}
